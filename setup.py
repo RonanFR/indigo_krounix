@@ -25,17 +25,16 @@ ABOUT = load_about()
 
 
 setup(
-    name="tutor-indigo",
+    name="tutor_krounix",
     version=ABOUT["__version__"],
-    url="https://github.com/overhangio/tutor-indigo",
+    url="https://github.com/RonanFR/indigo_krounix",
     project_urls={
-        "Code": "https://github.com/overhangio/tutor-indigo",
-        "Issue tracker": "https://github.com/overhangio/tutor-indigo/issues",
-        "Community": "https://discuss.overhang.io",
+        "Code": "https://github.com/RonanFR/indigo_krounix",
+        "Issue tracker": "https://github.com/RonanFR/indigo_krounix/issues"
     },
     license="AGPLv3",
     author="Overhang.IO",
-    description="Indigo theme plugin for Tutor",
+    description="Indigo theme plugin for Tutor customized for KrouniX",
     long_description=load_readme(),
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
